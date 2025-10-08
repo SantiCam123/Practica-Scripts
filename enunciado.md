@@ -64,9 +64,9 @@ taller-sales-cli/
 ````
 
 **Checklist**
-- [ ] `data/raw/`
-- [ ] `notebooks/`
-- [ ] `src/`
+- [ / ] `data/raw/`
+- [ / ] `notebooks/`
+- [ / ] `src/`
 
 ---
 
