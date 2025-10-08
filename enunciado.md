@@ -431,17 +431,17 @@ Objetivo: usar códigos coherentes.
 
 ```bash
 # Ayuda
-python3 src/sales_cli.py --help
+python src/sales_cli.py --help
 
 # Sin filtros, resumen TXT
-python3 src/sales_cli.py --input data/raw/orders_sample.csv
+python src/sales_cli.py --input data/raw/orders_sample.csv
 
 # JSON + filtros
-python3 src/sales_cli.py --input data/raw/orders_sample.csv \
+python src/sales_cli.py --input data/raw/orders_sample.csv \
   --start 2025-10-01 --end 2025-10-03 --country ES --summary-format json
 
 # Exportar filtrados
-python3 src/sales_cli.py --input data/raw/orders_sample.csv \
+python src/sales_cli.py --input data/raw/orders_sample.csv \
   --country FR --export-filtered
 ```
 
